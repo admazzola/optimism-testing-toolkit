@@ -1,7 +1,7 @@
 {
-  "name": "eip712-toolkit",
+  "name": "solidity-test-toolkit",
   "version": "0.10.0",
-  "description": "A toolkit for web3 code related to EIP712 ",
+  "description": "A toolkit for testing solidity without truffle. ",
   "main": "index.js",
   "type": "module",
   "scripts": {
