@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "node index.js",
+    
     "compile": "node tasks/compileSolidity.js",
     "test": "mocha ./test/ganacheTest.js"
   },
