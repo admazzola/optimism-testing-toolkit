@@ -15,11 +15,13 @@
     "eth-sig-util": "^3.0.1",
     "ethereumjs-abi": "^0.6.8",
     "ethereumjs-util": "^7.0.9",
-    "ganache-cli": "^6.12.2",
+    "@eth-optimism/plugins": "^1.0.0-alpha.3",
+    "hardhat": "^2.2.0",
     "json-beautify": "^1.1.1",
     "mocha": "^8.3.2",
     "solc": "git+https://github.com/ethereum-optimism/solc-js.git",
     "web3": "^1.3.4",
     "web3-utils": "^1.3.4"
-  }
+  },
+  "dependencies": {}
 }
