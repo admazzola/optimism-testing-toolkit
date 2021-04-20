@@ -3,19 +3,19 @@
   "version": "0.10.0",
   "description": "A toolkit for testing solidity without truffle. ",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "compile": "node tasks/compileSolidity.js",
-    "test": "mocha ./test/ganacheTest.js"
+    "test": "npx hardhat test"
   },
   "author": "admazzola",
   "license": "MIT",
   "devDependencies": {
+    "@eth-optimism/hardhat-ovm": "0.0.2",
+    "@eth-optimism/plugins": "^1.0.0-alpha.3",
     "chai": "^4.3.4",
     "eth-sig-util": "^3.0.1",
     "ethereumjs-abi": "^0.6.8",
     "ethereumjs-util": "^7.0.9",
-    "@eth-optimism/plugins": "^1.0.0-alpha.3",
     "hardhat": "^2.2.0",
     "json-beautify": "^1.1.1",
     "mocha": "^8.3.2",

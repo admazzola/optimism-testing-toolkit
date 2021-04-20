@@ -1,8 +1,8 @@
-
-import solc from 'solc'
-import path from 'path'
-import fs from 'fs-extra'
  
+
+const solc = require('solc')
+const path = require('path')
+const fs = require('fs-extra') 
 
 const buildPath = path.resolve('generated', 'built');
 

@@ -1,6 +1,6 @@
 
 
-export default class TestHelper {
+module.exports=  class TestHelper {
 
 
 static async deployContract(contractData, from, web3, args){

@@ -1,12 +1,10 @@
+ const fs = require('fs')
+ const path = require('path')
+ const Web3 = require('web3')
+ const expect = require('chai').expect 
  
-import fs from 'fs'
-import path from 'path'
-
-import ganache from 'ganache-cli' 
-import  Web3 from 'web3' 
-import { expect } from 'chai';
-
-import TestHelper from './test-helper.js'
+ const TestHelper = require('./test-helper')
+ 
 
 let testAccountA = {
   publicAddress: '0x95eDA452256C1190947f9ba1fD19422f0120858a',
