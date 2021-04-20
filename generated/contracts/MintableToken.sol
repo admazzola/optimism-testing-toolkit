@@ -147,6 +147,8 @@ contract MintableToken is  IERC20,  Ownable {
     uint256 private _totalSupply;
     uint8 private _decimals;
       
+
+    /* having args in the constructor may be unsafe in the OVM */  
     constructor (  ) public {
         _decimals = 8;
     }
@@ -154,10 +156,10 @@ contract MintableToken is  IERC20,  Ownable {
     
     
     function name() public pure returns (string memory) {
-        return "MinersGuildReserve";
+        return "TestToken";
     }
      function symbol() public pure returns (string memory) {
-        return "GUILD";
+        return "TEST";
     }
     
     
