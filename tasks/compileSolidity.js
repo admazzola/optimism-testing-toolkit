@@ -54,8 +54,10 @@ if(compileOutput. errors){
 const compileContracts = () => {
 	const compiledContracts = compileOutput.contracts;
 
-    console.log('compiledContracts:',compiledContracts)
+    console.log('compiledContracts:',compiledContracts )
 	for (let contract in compiledContracts) {
+
+	 
 		for(let contractName in compiledContracts[contract]) {
 			fs.outputJsonSync(
 				path.resolve(buildPath, `${contractName}.json`),
